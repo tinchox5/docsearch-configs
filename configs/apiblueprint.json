@@ -1,0 +1,15 @@
+{
+  "index_name": "apiblueprint",
+  "start_urls": [
+    "https://apiblueprint.org/documentation/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#sidebar li.active a",
+    "lvl1": ".div[role=main] h2:first-child",
+    "lvl2": ".div[role=main] h2",
+    "lvl3": ".div[role=main] h3",
+    "lvl4": ".div[role=main] h4",
+    "text": ".div[role=main] p"
+  }
+}
